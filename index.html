@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MALIBU' MUSIC SITE</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <script defer src="scripts/main.js"></script>
+  <link rel="icon" href="assets/logo.jpg" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.jpg" alt="Logo" class="logo" />
+    <h1>MALIBU' MUSIC SITE</h1>
+    <p class="slogan">Feel the Sound. Download the Vibe.</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#genres">Genres</a>
+    <a href="#artists">Artists</a>
+    <a href="upload.html">Upload</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="search-bar">
+    <button onclick="toggleSearch()" class="search-icon">🔍</button>
+    <input type="text" id="searchInput" placeholder="Search..." style="display: none;" />
+  </section>
+
+  <main id="musicList" class="music-container">
+    <!-- Songs will be shown here -->
+  </main>
+
+  <footer id="contact">
+    <p>Contact: <a href="mailto:aubreymilinda61@gmail.com">aubreymilinda61@gmail.com</a> | Phone: 0989549110</p>
+    <p>Facebook: <a href="https://www.facebook.com/MALIBUMAIL" target="_blank">MALIBUMAIL</a></p>
+    <p>&copy; 2025 MALIBU' MUSIC SITE</p>
+  </footer>
+</body>
+</html>
